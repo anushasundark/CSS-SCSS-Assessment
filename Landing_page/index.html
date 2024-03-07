@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+    <title>Makeup Haven | Online Makeup Store</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/">
+                    <img src="C:\Users\Anusha\Downloads\makeuplogo.jpg" alt="Makeup Haven Logo" width="100" height="100">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#order">Order</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="welcome-section" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 banner-image d-flex align-items-center justify-content-center">
+                <div>
+                    <h1>Welcome to Makeup Haven!</h1>
+                    <p class="mb-4">Discover the latest trends in makeup and beauty products.</p>
+                    <a href="products.html" class="btn btn-light btn-lg">Explore Now &#10142;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <body>
+    <!-- Your header code goes here -->
+
+    <!-- Makeup Products -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Makeup Collection</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Makeup Product 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="C:\Users\Anusha\Downloads\lipstickset.jpg" class="card-img-top" alt="Makeup Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Lipstick Set</h5>
+                        <p>A stunning set of vibrant lipsticks in various shades.</p>
+                        <p class="card-text">$29.99</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Lipstick Set">
+                            <input type="hidden" name="price" value="29.99">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Makeup Product 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="C:\Users\Anusha\Downloads\eyeshadow.jpg" class="card-img-top" alt="Makeup Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Eyeshadow Palette</h5>
+                        <p>A versatile eyeshadow palette with a range of stunning colors.</p>
+                        <p class="card-text">$39.99</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Eyeshadow Palette">
+                            <input type="hidden" name="price" value="39.99">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+<!-- Makeup Product 3 -->
+<div class="col">
+    <div class="card h-100">
+        <img src="C:\Users\Anusha\Downloads\blush.jpg" class="card-img-top" alt="Makeup Product">
+        <div class="card-body">
+            <h5 class="card-title">Blush Kit</h5>
+            <p>A blush kit with a mix of warm and cool tones for a natural flush.</p>
+            <p class="card-text">$24.99</p>
+            <form action="cart.html" method="GET">
+                <input type="hidden" name="product" value="Blush Kit">
+                <input type="hidden" name="price" value="24.99">
+                <input type="hidden" name="quantity" value="1">
+                <input type="submit" class="btn btn-warning" value="Add to Cart">
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Makeup Product 4 -->
+<div class="col">
+    <div class="card h-100">
+        <img src="C:\Users\Anusha\Downloads\hieghlighter.jpg" class="card-img-top" alt="Makeup Product">
+        <div class="card-body">
+            <h5 class="card-title">Highlighter Stick</h5>
+            <p>An easy-to-use highlighter stick for a radiant and dewy finish.</p>
+            <p class="card-text">$35.68</p>
+            <form action="cart.html" method="GET">
+                <input type="hidden" name="product" value="Highlighter Stick">
+                <input type="hidden" name="price" value="35.65">
+                <input type="hidden" name="quantity" value="1">
+                <input type="submit" class="btn btn-warning" value="Add to Cart">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Makeup Product 5 -->
+<div class="col">
+    <div class="card h-100">
+        <img src="C:\Users\Anusha\Downloads\found.jpg" class="card-img-top" alt="Makeup Product">
+        <div class="card-body">
+            <h5 class="card-title">Foundation</h5>
+            <p>An easy-to-use foundation for a radiant and smooth finish.</p>
+            <p class="card-text">$19.99</p>
+            <form action="cart.html" method="GET">
+                <input type="hidden" name="product" value="Foundation">
+                <input type="hidden" name="price" value="19.99">
+                <input type="hidden" name="quantity" value="1">
+                <input type="submit" class="btn btn-warning" value="Add to Cart">
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Makeup Product 6 -->
+<div class="col">
+    <div class="card h-100">
+        <img src="C:\Users\Anusha\Downloads\eyeliner.png" class="card-img-top" alt="Makeup Product">
+        <div class="card-body">
+            <h5 class="card-title">Highlighter Stick</h5>
+            <p>An easy-to-use Eyeliner for a eligent eyes and smooth finish.</p>
+            <p class="card-text">$20.99</p>
+            <form action="cart.html" method="GET">
+                <input type="hidden" name="product" value="Eyeliner">
+                <input type="hidden" name="price" value="20.99">
+                <input type="hidden" name="quantity" value="1">
+                <input type="submit" class="btn btn-warning" value="Add to Cart">
+            </form>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="container my-5">
+        <!-- Featured products code goes here (as provided in the previous response) -->
+    </div>
+
+    <!-- New Product -->
+    <div class="container">
+        <!-- New product code goes here (as provided in the previous response) -->
+    </div>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="container my-5">
+        <!-- Contact us section code goes here (as provided in the previous response) -->
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="container-fluid bg-light py-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2>Place Your Order</h2>
+                <p>Fill out the form below to place your order. We'll get in touch with you shortly!</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="productName" class="form-label">Product Name</label>
+                        <input type="text" class="form-control" id="productName" placeholder="Enter product name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantity</label>
+                        <input type="number" class="form-control" id="quantity" placeholder="Enter quantity" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-light py-4">
+        <!-- Footer code goes here (as provided in the previous response) -->
+    </footer>
+</body>
+
+</html>
